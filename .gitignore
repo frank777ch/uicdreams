@@ -1,0 +1,10 @@
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+.DS_Store
+Thumbs.db
+
+*.log
+tmp/
