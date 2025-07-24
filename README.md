@@ -8,8 +8,8 @@ Este repositorio contiene una colección de scripts de usuario para mejorar y pe
 
 | Script              | Descripción                                       | Instalación Directa                                       |
 | ------------------- | ------------------------------------------------- | --------------------------------------------------------- |
-| **Google Enhancer** | Mejora la interfaz de los resultados de Google.   | [⬇️ Instalar](https://github.com/tu-usuario/uicdreams/raw/main/src/google-enhancer/google-enhancer.user.js) |
-| **Wikipedia Cleaner** | Limpia la interfaz de Wikipedia para una mejor lectura. | [⬇️ Instalar](https://github.com/tu-usuario/uicdreams/raw/main/src/wikipedia-cleaner/wikipedia-cleaner.user.js) |
+| **Google Enhancer** | Mejora la interfaz de los resultados de Google.   | [⬇️ Instalar](https://github.com/frank777ch/uicdreams/raw/main/src/google-enhancer/google-enhancer.user.js) |
+| **Wikipedia Cleaner** | Limpia la interfaz de Wikipedia para una mejor lectura. | [⬇️ Instalar](https://github.com/frank777ch/uicdreams/raw/main/src/wikipedia-cleaner/wikipedia-cleaner.user.js) |
 
 
 ## ¿Cómo se Instala?
