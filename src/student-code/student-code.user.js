@@ -26,9 +26,33 @@
 
         console.log('Escuchando eventos...');
 
-        campoCodigoAlumno.addEventListener('input', function(event) {
+        campoCodigoAlumno.addEventListener('input', function (event) {
             
-            console.log(`El campo cambió. Nuevo valor: "${event.target.value}"`);
+            let valorActual = event.target.value;
+
+            console.log(`El campo cambió. Nuevo valor: "${valorActual}"`);
+
+            if (valorActual.startsWith("00")) {
+
+                console.log('El código empieza con 00. Cuidao');
+            
+            }
+
+        })
+
+        campoCodigoAlumno.addEventListener('input', function (event) {
+            
+            console.log('Se hizo click en el elemento.');
+
+        })
+
+        campoCodigoAlumno.addEventListener('keydown', function (event) {
+
+            if (event.key == 'Enter') {
+
+                console.log('Se está presionando enter.');
+            
+            }
 
         })
 
