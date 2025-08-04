@@ -35,6 +35,14 @@
             if (valorActual.startsWith("00")) {
 
                 console.log('El código empieza con 00. Cuidao');
+
+                console.log('Se quitarán los dos primeros ceros.')
+
+                event.target.value = valorActual.substring(2);
+
+                console.log('Se realizaron cambios...');
+
+                console.log(`El nuevo valor es: "${valorActual}"`);
             
             }
 
