@@ -11,8 +11,18 @@
 // ==/UserScript==
 
 (function() {
+    
     'use strict';
 
-    console.log('¡Hola, Mundo! Mi script de Tampermonkey se ha cargado en esta página.');
+    console.log('Script cargado. Buscando el campo de código...');
+
+    const campoCodigoAlumno = document.getElementById('codigo');
+
+    if(campoCodigoAlumno){
+        console.log('¡Se encontró el campo!');
+        console.log(campoCodigoAlumno);
+    } else {
+        console.error('No se pudo encontrar el elemento.');
+    }
 
 })();
