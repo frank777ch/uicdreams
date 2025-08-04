@@ -37,18 +37,4 @@
         }
     }
 
-    const cajaDeAlerta = document.createElement('div');
-
-    cajaDeAlerta.innerHTML = '<strong>Aviso:</strong> Esta página está siendo manipulada en tiempo real por un script de Tampermonkey. ¡Genial!';
-    cajaDeAlerta.style.backgroundColor = '#e0f7fa';
-    cajaDeAlerta.style.border = '1px solid #00acc1';
-    cajaDeAlerta.style.padding = '15px';
-    cajaDeAlerta.style.margin = '16px 0';
-    cajaDeAlerta.style.fontSize = '14px';
-
-    const cuerpoDelContenido = document.getElementById('mw-content-tex');
-    if (cuerpoDelContenido) {
-        cuerpoDelContenido.prepend(cajaDeAlerta);
-    }
-
 })();
