@@ -19,8 +19,19 @@
     const campoCodigoAlumno = document.getElementById('codigo');
 
     if(campoCodigoAlumno){
+
         console.log('¡Se encontró el campo!');
+
         console.log(campoCodigoAlumno);
+
+        console.log('Escuchando eventos...');
+
+        campoCodigoAlumno.addEventListener('input', function(event) {
+            
+            console.log(`El campo cambió. Nuevo valor: "${event.target.value}"`);
+
+        })
+
     } else {
         console.error('No se pudo encontrar el elemento.');
     }
