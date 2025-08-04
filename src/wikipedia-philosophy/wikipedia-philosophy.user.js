@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Modifica el título, el primer párrafo y añade un nuevo elemento en Wikipedia para demostrar el poder de Tampermonkey.
-// @author       Tu Nombre
+// @author       Frank
 // @match        https://es.wikipedia.org/wiki/Filosof%C3%ADa
 
 // @grant        GM_addStyle
