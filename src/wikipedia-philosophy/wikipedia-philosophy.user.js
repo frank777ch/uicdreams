@@ -46,7 +46,7 @@
     cajaDeAlerta.style.margin = '16px 0';
     cajaDeAlerta.style.fontSize = '14px';
 
-    const cuerpoDelContenido = document.getElementById('content');
+    const cuerpoDelContenido = document.getElementById('mw-content-tex');
     if (cuerpoDelContenido) {
         cuerpoDelContenido.prepend(cajaDeAlerta);
     }
