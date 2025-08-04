@@ -14,11 +14,17 @@
 (function() {
     'use strict';
 
-    console.log('Google Enhancer v1.0.0 cargado!');
+    console.log('Google Enhancer v1.1.0 cargado, buscando la barra de búsqueda...');
 
-    const searchBar = document.querySelector('textarea[name="q"]');
-    if (searchBar) {
-        searchBar.style.border = '2px solid #8ab4f8';
-        searchBar.style.borderRadius = '24px';
-    }
+    const intervalId = setInterval(() => {
+        const searchBar = document.querySelector('textarea[name="q"]');
+        if (searchBar) {
+            console.log('¡Barra de búsqueda encontrada! Aplicando estilos.');
+            searchBar.style.border = '3px solid #8ab4f8';
+            searchBar.style.borderRadius = '24px';
+
+            clearInterval(intervalId);
+        }
+    }, 100);
+
 })();

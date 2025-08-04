@@ -1,4 +1,4 @@
-# Mis Scripts de Tampermonkey (Proyecto UICDreams)
+# Scripts de Tampermonkey
 
 Este repositorio contiene una colección de scripts de usuario para mejorar y personalizar mi experiencia de navegación web.
 
