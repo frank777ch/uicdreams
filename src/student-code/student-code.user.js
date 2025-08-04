@@ -40,7 +40,7 @@
 
         })
 
-        campoCodigoAlumno.addEventListener('input', function (event) {
+        campoCodigoAlumno.addEventListener('click', function (event) {
             
             console.log('Se hizo click en el elemento.');
 
