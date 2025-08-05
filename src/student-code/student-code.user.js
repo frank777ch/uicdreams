@@ -42,7 +42,7 @@
 
                 console.log('Se realizaron cambios...');
 
-                console.log(`El nuevo valor es: "${valorActual}"`);
+                console.log(`El nuevo valor es: "${event.target.value}"`);
             
             }
 
