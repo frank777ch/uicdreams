@@ -6,9 +6,9 @@ Este script para Tampermonkey está diseñado para resolver un problema de efici
 
 ## ✨ Demostración en acción
 
-![Demostración del Script 1](https://raw.githubusercontent.com/frank777ch/uicdreams/main/demo1.gif)
-![Demostración del Script 2](https://raw.githubusercontent.com/frank777ch/uicdreams/main/demo2.gif)
-![Demostración del Script 3](https://raw.githubusercontent.com/frank777ch/uicdreams/main/demo3.gif)
+![Demostración del Script 1](https://github.com/frank777ch/uicdreams/blob/main/media/demo1.gif?raw=true)
+![Demostración del Script 2](https://github.com/frank777ch/uicdreams/blob/main/media/demo2.gif?raw=true)
+![Demostración del Script 3](https://github.com/frank777ch/uicdreams/blob/main/media/demo3.gif?raw=true)
 
 ---
 
