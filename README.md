@@ -28,7 +28,7 @@ Si aún no lo tienes, primero debes instalar la extensión **Tampermonkey** en t
 
 Una vez que tengas Tampermonkey, haz clic en el siguiente enlace para instalar el script:
 
-➡️ **[Haz Clic Aquí para Instalar el Corrector de Códigos](https://raw.githubusercontent.com/frank777ch/uicdreams/main/src/student-code/student-code.user.js)** ⬅️
+➡️ **[Haz clic aquí para instalar el corrector de códigos](https://raw.githubusercontent.com/frank777ch/uicdreams/main/src/student-code/student-code.user.js)** ⬅️
 
 Se abrirá una nueva pestaña de Tampermonkey mostrando el código. Simplemente haz clic en el botón **"Instalar"**.
 
